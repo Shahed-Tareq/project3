@@ -1,0 +1,600 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    src:url(Dongle-Light.ttf);
+    font-family:dongle; 
+}
+@font-face{
+    src:url(../fonts/Poppins-Medium.ttf);  
+    font-family:Poppins-Medium; 
+}
+@font-face{
+    src:url(../fonts/Rubik-Light.ttf); 
+    font-family: Rubik-Light;
+}
+@font-face{
+    src:url(../fonts/PlayfairDisplay-Regular.ttf);  
+    font-family:PlayfairDisplay-Regular;
+}
+.clear{
+    clear:both;
+}
+body{
+    direction: rtl;
+    background-image:linear-gradient(to bottom right, rgb(186, 156, 201), rgb(182, 81, 168));
+} 
+header{
+ width: 100%;
+  padding: 30px;
+ 
+   
+}
+.container{
+    width:1300px;
+    margin:15px auto;
+   
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction:ltr;
+
+}
+.container ul li{
+  
+    margin-left: 20px;
+    min-width: 220px;
+    background-color: rgb(245, 245, 16);
+   padding:10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.container ul li:hover{
+    background-color: rgb(255, 255, 255);
+    color:yellow;
+}
+.container ul li a{
+   text-decoration: none;
+   font-size: 25px;
+   font-weight: bold;
+   color:black;
+  
+  
+}
+/* End The Header */
+.body .container{
+   background-color: white;
+   padding: 40px;
+   margin-bottom: 50px;
+   width: 100%;
+   
+}
+.body .container .info{
+  padding: 40px 20px;
+  margin-top: 50px;
+  direction: ltr;
+  text-align: justify;
+   
+ }
+ .body .container .info h1{
+   font-size: 35px;
+   font-weight: bold;
+   
+   font-family: Poppins-Medium;
+   letter-spacing: 3px;
+      
+   }
+   .body .container .info h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+   margin-bottom: 20px;
+    font-family: Poppins-Medium;
+       
+    }
+    .body .container .info a{
+        background-color: yellow;
+        text-decoration: none;
+        color: black;
+      
+        padding: 10px 15px;
+        font-family: Poppins-Medium;
+       
+    }
+    .body .container .info a:hover{
+        background-color: black;
+        color: white;
+    }
+
+.body .container div:not(:last-child){
+    float: left;
+}
+/* Start the second Section */
+.Second_Part .container {
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    direction: ltr;
+  
+}
+.Second_Part .container .img{
+   grid-column: span 8;
+    margin-left: 35px;
+     width: 800px;
+     margin-right: 2px;
+     height: 500px;
+     background-image: url('../images/sh2.jpg');
+     background-repeat: no-repeat;
+    font-size: 25px;
+   font-weight: bold;
+   color: white;  
+   padding: 25px;
+   
+}
+.Second_Part .container .img h3{
+    font-size: 18px;
+    padding: 10px 28px;
+}
+.Second_Part .container .price{
+    grid-column: span 4;
+}
+.Second_Part .container .price div{
+    min-width: 350px;
+    height: 190px;
+    padding:40px 140px;
+    background-color: rgb(245, 245, 16);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  
+}
+.Second_Part .container .price div h1{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.Second_Part .container .price div h3{
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+/* End the second Section */
+/* Start the Third Section */
+.food{
+    width: 100%;
+    margin-top: 0px;
+   padding-bottom: 30px;
+   direction: ltr;
+}
+.food .container{
+    width:80%;
+    margin: 25px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+.food .container div{
+    
+    margin-left: 28px;
+    min-width: 300px;
+    width: 320px;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+   
+   
+   
+}
+.food .container div:hover{
+    box-shadow: 5px 5px 2px rgb(236, 236, 230) ,-5px -5px 2px rgb(236, 236, 230) ;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color:rgb(238, 215, 9);
+    
+   
+}
+.food .container div h1{
+margin-bottom: 12px;
+font-size: 30px;
+}
+.food .container div h2{
+    margin-bottom: 12px;
+    font-family: Poppins-Medium;
+    font-size: 25px;
+    }
+    .food .container div p{
+        font-family: Poppins-Medium;
+        font-size: 12px;
+    }
+   
+/* End The Third Section */
+/* Start the Fourth Section */
+
+/* .pictures .container img{
+    width:220px;
+    height: 180px;
+   margin-left: 33px;
+   margin-top: 15px;
+  
+} */
+.firpic{
+    width:240px;
+    position: relative;
+}
+.NewSection .container{
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+}
+
+.NewSection .container .firpic {
+   grid-column: span 3;
+    margin-left: 10px;
+    margin-bottom: 15px;
+
+}
+/* .NewSection .container .firpic:first-child{
+margin-left: 25px;
+}
+.NewSection .container .firpic:nth-child(6){
+    margin-left: 25px;
+    } */
+.firpic img{
+    width: 100%;
+}
+.firpic .title{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color:white;
+    background-color: rgba(0,0,0, 0.6);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition:  opacity .25s;
+}
+.firpic .title:hover{
+    opacity: 1;
+}
+
+.firpic .title > *{
+    transform:  translateY(20px);
+    transition: transform .25s;
+}
+.firpic .title:hover > *{
+    transform: translateY(0px);
+}
+.firpic .title h1{
+    font-size: 28px;
+    font-family:dongle; 
+}
+.firpic .title h4{
+    font-size: 22px;
+    font-family:dongle; 
+}
+@media (max-width:900px){
+    .body{
+        width: 80%;
+        padding: 20px;
+        margin: 15px auto;
+    }
+ .body .container .image{
+width: 200px;
+height: 150px;
+clear: both;
+    }
+    .body .container .image img{
+        width:200px;
+        height: 150px;
+       
+            }
+          .body .container .info h1{
+                font-size: 20px;
+            }
+            .body .container .info h2{
+                font-size: 15px;
+            }
+    .NewSection .container{
+      
+        width: 340px;
+       direction: ltr;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+        margin: 25px auto;
+        padding: 25px;
+    }
+    
+    .NewSection .container .firpic {
+        
+       grid-column: span 7;
+        margin-bottom: 15px;
+       
+        background-color: rebeccapurple;
+      
+    
+    }
+    body{
+   background-image: linear-gradient(to rigth , red , blue);
+  
+    }
+    .container ul li{
+        padding:30px;
+    }
+    .food .container{
+        width: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+     }
+     .food .container div{
+         border: 2px solid green;
+         margin-top: 25px;
+     }
+     .container ul{
+        min-width: 100px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        direction:ltr;
+        flex-wrap: wrap;
+    
+    }
+    .container ul li{
+        width: 150px;
+       min-width: 100px;
+        background-color: rgb(245, 245, 16);
+       padding:10px 5px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 15px;
+        
+    }
+    .container{
+        width:160px;
+       
+       
+    }
+    .Second_Part .container {
+        display: grid;
+        grid-template-columns: repeat(12 , 1fr);
+        direction: ltr;
+        width: 300px;
+        margin:25px auto;
+      
+    }
+    .Second_Part .container .img{
+       grid-column: span 12;
+        margin-left: -40px;
+         width: 390px;
+         margin-right: 20px;
+      
+       
+    }
+    .Second_Part .container .price{
+        grid-column: span 12;
+        margin-left: -40px;
+        width: 390px;
+        margin-top: 25px;
+    }
+    .Second_Part .container .price div{
+        min-width: 300px;
+        height: 190px;
+        padding:30px 80px;
+        background-color: rgb(245, 245, 16);
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+      
+    }
+  
+     
+
+}
+@media (min-width:700px) and (max-width:900px){
+
+    .container{
+        text-align: center;
+    }
+    .container ul{
+        margin: 10px auto;
+        text-align: center;
+        min-width: 100px;
+        width: 110px;
+        display: grid;
+        grid-template-columns: repeat(10 ,1fr);
+       
+    
+    }
+    .container ul li{
+        grid-column: span 2;
+        width: 100px;
+       min-width: 120px;
+        background-color: rgb(245, 245, 16);
+       padding:10px 5px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 15px;
+        
+    }
+    .container ul li:last-child{
+        margin-right: 15px;
+    }
+  
+}
+@media (min-width:901px) and (max-width:1250px){
+   
+   /* .food .container{
+      
+   } */
+    .NewSection .container{
+    width: 100%;
+        display: grid;
+        grid-template-columns: repeat(15,1fr);
+        margin: 25px auto;
+    }
+    
+    .NewSection .container .firpic {
+       grid-column: span 3;
+        margin-bottom: 15px;
+      
+      
+    }
+    body{
+        background-image: linear-gradient(to right , gray , green);
+      
+    }
+    .body .container{
+        background-color: white;
+        padding: 40px;
+        margin-bottom: 50px;
+        margin-right: 50px;
+        
+     }
+     .Second_Part .container {
+        display: grid;
+        grid-template-columns: repeat(12 , 1fr);
+        direction: ltr;
+        width: 800px;
+        margin:25px auto;
+      
+    }
+    .Second_Part .container .img{
+       grid-column: span 12;
+        margin-left: 20px;
+         width:800px;
+      
+      
+       
+    }
+    .Second_Part .container .price{
+        grid-column: span 12;
+        display: grid;
+        grid-template-columns: repeat(12 , 1fr);
+        margin-left:10px;
+        width: 800px;
+        margin-top: 25px;
+        gap: 25px;
+        
+    }
+    .Second_Part .container .price div{
+        grid-column: span 6;
+        min-width: 350px;
+        height: 190px;
+        padding:30px 80px;
+        background-color: rgb(245, 245, 16);
+        text-align: center;
+        color: white;
+      
+      
+    }
+    .food .container{
+ width: 500px;
+ display: grid;
+ grid-template-columns: repeat(8 , 1fr);
+    }
+    .container ul li{
+        padding:10px;
+    }
+    /* .food .container{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+     } */
+     .food .container div{
+        grid-column: span 4;
+        margin-top: 25px;
+    }
+     .container ul{
+        min-width: 100px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        direction:ltr;
+       
+    
+    }
+    .container ul li{
+        width: 190px;
+       min-width: 150px;
+        background-color: rgb(245, 245, 16);
+       padding:10px 5px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 15px;
+        
+    }
+    .container{
+        width:160px;
+       
+       
+    }
+    .NewSection .container{
+      
+        width: 80%;
+       direction: ltr;
+       display: grid;
+       grid-template-columns: repeat(12, 1 fr);
+      padding: 25px; 
+        margin: 25px auto;
+    }
+    
+    .NewSection .container .firpic {
+        
+       grid-column: span 4;
+        margin-bottom: 15px;
+ }
+ .body{
+    width: 100%;
+   margin: 10px auto;
+   background-color: white;
+}
+.body .container{
+    margin:80% ;
+    margin: 10px auto;
+}
+.body .container .image{
+width: 100px;
+height: 150px;
+margin-left:140px;
+clear: both;
+}
+.body .container .image img{
+    width: 250px;
+    height: 170px;
+   
+}
+.body .container .info {
+ padding: 20px 10px;
+ margin-top: 50px;
+             
+ }
+ .body .container{
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+  
+    width: 800px;
+    
+ }
+}
+ 
+    /* @media (min-width:992px){
+       
+} */
